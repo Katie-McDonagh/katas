@@ -1,7 +1,10 @@
-function Song() {
+class Song {
+  constructor() {
+  }
+  persistFavoriteStatus(value) {
+    // something complicated
+    throw new Error("not yet implemented");
+  }
 }
 
-Song.prototype.persistFavoriteStatus = function(value) {
-  // something complicated
-  throw new Error("not yet implemented");
-};
+
