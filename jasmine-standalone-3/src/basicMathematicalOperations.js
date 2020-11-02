@@ -1,3 +1,10 @@
 function basicOp(operation, value1, value2){
-  return value1 + value2
+  let result
+
+  if(operation === '+'){
+    result = value1 + value2
+  } else {
+    result = value1 - value2
+  }
+  return result
 }
