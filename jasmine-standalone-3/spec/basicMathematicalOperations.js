@@ -11,4 +11,8 @@ describe("basicOp", function(){
   it("returns the numbers multiplied with each other", function(){
     expect(basicOp('*', 5, 5)).toEqual(25)
   })
+
+  it("divides value1 by value2", function(){
+    expect(basicOp('/', 49, 7)).toEqual(7)
+  })
 });
