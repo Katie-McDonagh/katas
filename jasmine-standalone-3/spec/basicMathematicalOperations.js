@@ -9,6 +9,10 @@ describe("basicOp", function(){
   });
 
   it("returns the number that equals value 2 subtracted from value 1 when given '-'", function(){
-    expect(basicOp('-',5, 5 )).toEqual(0)
+    expect(basicOp('-', 5, 5 )).toEqual(0)
+  })
+
+  it("returns the numbers multiplied with each other", function(){
+    expect(basicOp('*', 5, 5)).toEqual(25)
   })
 });
