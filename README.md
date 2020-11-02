@@ -13,3 +13,11 @@ basicOp('-', 15, 18)       // Output: -3
 basicOp('*', 5, 5)         // Output: 25
 basicOp('/', 49, 7)        // Output: 7
 ```
+2. Convert Number to Reversed Array of Digits
+
+Given a random non-negative number, you have to return the digits of this number within an array in reverse order.
+
+Example:
+```
+348597 => [7,9,5,8,4,3]
+```
